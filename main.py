@@ -10,7 +10,7 @@ import os
 
 load_dotenv(".env")
 
-api_id = int(os.getenv(" 6212330"))
+api_id = int(os.getenv("6212330"))
 
 api_hash = os.getenv("1dcf154704672a8c279126e1ecf229c3")
 

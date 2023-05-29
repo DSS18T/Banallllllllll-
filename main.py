@@ -10,11 +10,11 @@ import os
 
 load_dotenv(".env")
 
-api_id = int(os.getenv("6212330"))
+api_id = int(os.getenv("API_ID"))
 
-api_hash = os.getenv("1dcf154704672a8c279126e1ecf229c3")
+api_hash = os.getenv("API_HASH")
 
-bot_token = os.getenv("6162480032:AAGQ_-EGxKGn4VWg-OvBdmJ_58wiyGfAzDI")
+bot_token = os.getenv("BOT_TOKEN")
 
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 

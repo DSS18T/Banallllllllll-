@@ -12,9 +12,10 @@ load_dotenv(".env")
 
 api_id = int(os.getenv(" 6212330"))
 
-api_hash = os.getenv("")
+api_hash = os.getenv("1dcf154704672a8c279126e1ecf229c3")
 
-bot_token = os.getenv("BOT_TOKEN")
+bot_token = os.getenv("6162480032:AAGQ_-EGxKGn4VWg-OvBdmJ_58wiyGfAzDI
+")
 
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 

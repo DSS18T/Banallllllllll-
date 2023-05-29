@@ -10,9 +10,9 @@ import os
 
 load_dotenv(".env")
 
-api_id = int(os.getenv("API_ID"))
+api_id = int(os.getenv(" 6212330"))
 
-api_hash = os.getenv("API_HASH")
+api_hash = os.getenv("")
 
 bot_token = os.getenv("BOT_TOKEN")
 
